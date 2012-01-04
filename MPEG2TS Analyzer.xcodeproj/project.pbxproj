@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3B7FBDB14B48F7F0090918C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7FBDA14B48F7F0090918C /* Cocoa.framework */; };
+		C3B7FBE514B48F7F0090918C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3B7FBE314B48F7F0090918C /* InfoPlist.strings */; };
+		C3B7FBE714B48F7F0090918C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B7FBE614B48F7F0090918C /* main.m */; };
+		C3B7FBEB14B48F7F0090918C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C3B7FBE914B48F7F0090918C /* Credits.rtf */; };
+		C3B7FBEE14B48F7F0090918C /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B7FBED14B48F7F0090918C /* Document.m */; };
+		C3B7FBF114B48F7F0090918C /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3B7FBEF14B48F7F0090918C /* Document.xib */; };
+		C3B7FBF414B48F800090918C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3B7FBF214B48F800090918C /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C3B7FBD614B48F7F0090918C /* MPEG2TS Analyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MPEG2TS Analyzer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B7FBDA14B48F7F0090918C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C3B7FBDD14B48F7F0090918C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C3B7FBDE14B48F7F0090918C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C3B7FBDF14B48F7F0090918C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3B7FBE214B48F7F0090918C /* MPEG2TS Analyzer-Info.plist */ = {isa = PBXFileReference; path = "MPEG2TS Analyzer-Info.plist"; sourceTree = "<group>"; };
+		C3B7FBE414B48F7F0090918C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3B7FBE614B48F7F0090918C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3B7FBE814B48F7F0090918C /* MPEG2TS Analyzer-Prefix.pch */ = {isa = PBXFileReference; path = "MPEG2TS Analyzer-Prefix.pch"; sourceTree = "<group>"; };
+		C3B7FBEA14B48F7F0090918C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C3B7FBEC14B48F7F0090918C /* Document.h */ = {isa = PBXFileReference; path = Document.h; sourceTree = "<group>"; };
+		C3B7FBED14B48F7F0090918C /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		C3B7FBF014B48F7F0090918C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Document.xib; sourceTree = "<group>"; };
+		C3B7FBF314B48F800090918C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3B7FBD314B48F7F0090918C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B7FBDB14B48F7F0090918C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3B7FBCB14B48F7F0090918C = {
+			isa = PBXGroup;
+			children = (
+				C3B7FBE014B48F7F0090918C /* MPEG2TS Analyzer */,
+				C3B7FBD914B48F7F0090918C /* Frameworks */,
+				C3B7FBD714B48F7F0090918C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3B7FBD714B48F7F0090918C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3B7FBD614B48F7F0090918C /* MPEG2TS Analyzer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3B7FBD914B48F7F0090918C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3B7FBDA14B48F7F0090918C /* Cocoa.framework */,
+				C3B7FBDC14B48F7F0090918C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3B7FBDC14B48F7F0090918C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3B7FBDD14B48F7F0090918C /* AppKit.framework */,
+				C3B7FBDE14B48F7F0090918C /* CoreData.framework */,
+				C3B7FBDF14B48F7F0090918C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C3B7FBE014B48F7F0090918C /* MPEG2TS Analyzer */ = {
+			isa = PBXGroup;
+			children = (
+				C3B7FBEC14B48F7F0090918C /* Document.h */,
+				C3B7FBED14B48F7F0090918C /* Document.m */,
+				C3B7FBEF14B48F7F0090918C /* Document.xib */,
+				C3B7FBF214B48F800090918C /* MainMenu.xib */,
+				C3B7FBE114B48F7F0090918C /* Supporting Files */,
+			);
+			path = "MPEG2TS Analyzer";
+			sourceTree = "<group>";
+		};
+		C3B7FBE114B48F7F0090918C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3B7FBE214B48F7F0090918C /* MPEG2TS Analyzer-Info.plist */,
+				C3B7FBE314B48F7F0090918C /* InfoPlist.strings */,
+				C3B7FBE614B48F7F0090918C /* main.m */,
+				C3B7FBE814B48F7F0090918C /* MPEG2TS Analyzer-Prefix.pch */,
+				C3B7FBE914B48F7F0090918C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3B7FBD514B48F7F0090918C /* MPEG2TS Analyzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3B7FBF714B48F800090918C /* Build configuration list for PBXNativeTarget "MPEG2TS Analyzer" */;
+			buildPhases = (
+				C3B7FBD214B48F7F0090918C /* Sources */,
+				C3B7FBD314B48F7F0090918C /* Frameworks */,
+				C3B7FBD414B48F7F0090918C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MPEG2TS Analyzer";
+			productName = "MPEG2TS Analyzer";
+			productReference = C3B7FBD614B48F7F0090918C /* MPEG2TS Analyzer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3B7FBCD14B48F7F0090918C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C3B7FBD014B48F7F0090918C /* Build configuration list for PBXProject "MPEG2TS Analyzer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3B7FBCB14B48F7F0090918C;
+			productRefGroup = C3B7FBD714B48F7F0090918C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3B7FBD514B48F7F0090918C /* MPEG2TS Analyzer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3B7FBD414B48F7F0090918C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B7FBE514B48F7F0090918C /* InfoPlist.strings in Resources */,
+				C3B7FBEB14B48F7F0090918C /* Credits.rtf in Resources */,
+				C3B7FBF114B48F7F0090918C /* Document.xib in Resources */,
+				C3B7FBF414B48F800090918C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3B7FBD214B48F7F0090918C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B7FBE714B48F7F0090918C /* main.m in Sources */,
+				C3B7FBEE14B48F7F0090918C /* Document.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3B7FBE314B48F7F0090918C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3B7FBE414B48F7F0090918C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3B7FBE914B48F7F0090918C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3B7FBEA14B48F7F0090918C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C3B7FBEF14B48F7F0090918C /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3B7FBF014B48F7F0090918C /* en */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		C3B7FBF214B48F800090918C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3B7FBF314B48F800090918C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3B7FBF514B48F800090918C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C3B7FBF614B48F800090918C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C3B7FBF814B48F800090918C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPEG2TS Analyzer/MPEG2TS Analyzer-Prefix.pch";
+				INFOPLIST_FILE = "MPEG2TS Analyzer/MPEG2TS Analyzer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3B7FBF914B48F800090918C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPEG2TS Analyzer/MPEG2TS Analyzer-Prefix.pch";
+				INFOPLIST_FILE = "MPEG2TS Analyzer/MPEG2TS Analyzer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3B7FBD014B48F7F0090918C /* Build configuration list for PBXProject "MPEG2TS Analyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B7FBF514B48F800090918C /* Debug */,
+				C3B7FBF614B48F800090918C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3B7FBF714B48F800090918C /* Build configuration list for PBXNativeTarget "MPEG2TS Analyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B7FBF814B48F800090918C /* Debug */,
+				C3B7FBF914B48F800090918C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3B7FBCD14B48F7F0090918C /* Project object */;
+}

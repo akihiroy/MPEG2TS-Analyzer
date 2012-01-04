@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MPEG2TS Analyzer' target in the 'MPEG2TS Analyzer' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif
