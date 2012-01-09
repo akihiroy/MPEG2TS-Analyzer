@@ -14,6 +14,8 @@
 		C3B7FBEE14B48F7F0090918C /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B7FBED14B48F7F0090918C /* Document.m */; };
 		C3B7FBF114B48F7F0090918C /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3B7FBEF14B48F7F0090918C /* Document.xib */; };
 		C3B7FBF414B48F800090918C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3B7FBF214B48F800090918C /* MainMenu.xib */; };
+		C3B7FC0114B4A85B0090918C /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B7FC0014B4A85B0090918C /* Controller.m */; };
+		C3B7FC0414B8B2D00090918C /* tsparser.c in Sources */ = {isa = PBXBuildFile; fileRef = C3B7FC0314B8B2CF0090918C /* tsparser.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,19 @@
 		C3B7FBDD14B48F7F0090918C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		C3B7FBDE14B48F7F0090918C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C3B7FBDF14B48F7F0090918C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C3B7FBE214B48F7F0090918C /* MPEG2TS Analyzer-Info.plist */ = {isa = PBXFileReference; path = "MPEG2TS Analyzer-Info.plist"; sourceTree = "<group>"; };
+		C3B7FBE214B48F7F0090918C /* MPEG2TS Analyzer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MPEG2TS Analyzer-Info.plist"; sourceTree = "<group>"; };
 		C3B7FBE414B48F7F0090918C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C3B7FBE614B48F7F0090918C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C3B7FBE814B48F7F0090918C /* MPEG2TS Analyzer-Prefix.pch */ = {isa = PBXFileReference; path = "MPEG2TS Analyzer-Prefix.pch"; sourceTree = "<group>"; };
+		C3B7FBE614B48F7F0090918C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		C3B7FBE814B48F7F0090918C /* MPEG2TS Analyzer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MPEG2TS Analyzer-Prefix.pch"; sourceTree = "<group>"; };
 		C3B7FBEA14B48F7F0090918C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		C3B7FBEC14B48F7F0090918C /* Document.h */ = {isa = PBXFileReference; path = Document.h; sourceTree = "<group>"; };
-		C3B7FBED14B48F7F0090918C /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		C3B7FBEC14B48F7F0090918C /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Document.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C3B7FBED14B48F7F0090918C /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Document.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		C3B7FBF014B48F7F0090918C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Document.xib; sourceTree = "<group>"; };
 		C3B7FBF314B48F800090918C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C3B7FBFF14B4A85B0090918C /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Controller.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C3B7FC0014B4A85B0090918C /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Controller.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		C3B7FC0214B8B02D0090918C /* tsparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = tsparser.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C3B7FC0314B8B2CF0090918C /* tsparser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = tsparser.c; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +93,12 @@
 				C3B7FBEC14B48F7F0090918C /* Document.h */,
 				C3B7FBED14B48F7F0090918C /* Document.m */,
 				C3B7FBEF14B48F7F0090918C /* Document.xib */,
+				C3B7FBFF14B4A85B0090918C /* Controller.h */,
+				C3B7FC0014B4A85B0090918C /* Controller.m */,
 				C3B7FBF214B48F800090918C /* MainMenu.xib */,
 				C3B7FBE114B48F7F0090918C /* Supporting Files */,
+				C3B7FC0214B8B02D0090918C /* tsparser.h */,
+				C3B7FC0314B8B2CF0090918C /* tsparser.c */,
 			);
 			path = "MPEG2TS Analyzer";
 			sourceTree = "<group>";
@@ -171,6 +181,8 @@
 			files = (
 				C3B7FBE714B48F7F0090918C /* main.m in Sources */,
 				C3B7FBEE14B48F7F0090918C /* Document.m in Sources */,
+				C3B7FC0114B4A85B0090918C /* Controller.m in Sources */,
+				C3B7FC0414B8B2D00090918C /* tsparser.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +312,7 @@
 				C3B7FBF914B48F800090918C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

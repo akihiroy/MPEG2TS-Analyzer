@@ -2,13 +2,15 @@
 //  Document.m
 //  MPEG2TS Analyzer
 //
-//  Created by 章裕 山崎 on 12/01/04.
-//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
+//  Created by Akihiro Yamasaki on 12/01/04.
+//  Copyright (c) 2012 Akihiro Yamasaki. All rights reserved.
 //
 
 #import "Document.h"
 
 @implementation Document
+
+@synthesize num_of_ts_packets_;
 
 - (id)init
 {
@@ -19,6 +21,12 @@
     }
     return self;
 }
+
+- (void)getTSPacket:(NSInteger)index packet:(TSPacket *)packet
+{
+	[data_ getBytes:packet->data range:NSMakeRange(index * 192 + 4, 188)];
+}
+
 
 - (NSString *)windowNibName
 {
@@ -46,13 +54,8 @@
 
 - (BOOL)readFromData:(NSData *)data ofType:(NSString *)typeName error:(NSError **)outError
 {
-	/*
-	Insert code here to read your document from the given data of the specified type. If outError != NULL, ensure that you create and set an appropriate error when returning NO.
-	You can also choose to override -readFromFileWrapper:ofType:error: or -readFromURL:ofType:error: instead.
-	If you override either of these, you should also override -isEntireFileLoaded to return NO if the contents are lazily loaded.
-	*/
-	NSException *exception = [NSException exceptionWithName:@"UnimplementedMethod" reason:[NSString stringWithFormat:@"%@ is unimplemented", NSStringFromSelector(_cmd)] userInfo:nil];
-	@throw exception;
+	num_of_ts_packets_ = [data length] / 192;
+	data_ = data;
 	return YES;
 }
 
@@ -60,5 +63,7 @@
 {
     return YES;
 }
+
+
 
 @end
